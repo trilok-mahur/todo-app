@@ -23,10 +23,10 @@ function App() {
   }
 
   useEffect(() => {
-    if (tickets.length === 0 || users.length) {
+    if (tickets.length === 0 || users.length === 0) {
       fetchData();
     }
-  }, [])
+  }, [tickets.length, users.length])
 
   return (
     <div className="App" style={{ width: "100%", height: "100%" }}>
