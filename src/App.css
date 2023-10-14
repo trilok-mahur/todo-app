@@ -1,0 +1,8 @@
+.App {
+  padding-top: 32px ;
+  text-align: center;
+  flex-grow: 1;
+  min-height: calc(100vh - 32px);
+  display: flex;
+  flex-direction: column;
+}

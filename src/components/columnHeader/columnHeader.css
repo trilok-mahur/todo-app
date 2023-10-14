@@ -1,0 +1,12 @@
+.column-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 18px;
+}
+
+
+.column-header > div {
+    display: flex;
+    align-items: center;
+}
